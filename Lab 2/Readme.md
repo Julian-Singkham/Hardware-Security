@@ -21,7 +21,7 @@ Key for unknown card *supo500* was *CA FE BA BE 36 69 AA 00 90 60 90 FF 73 75 70
 For the first task, the following three images will contain  a screenshot of the correlation graph with the 
 correct hyothetical value and two neighboring values.
 
-![HW 3 Guesses](Julian-Singkham/Hardware-Security/Lab 2/Pictures/Hamming Weight plot with 3 guesses.PNG)
+![HW 3 Guesses](/Lab%202/Pictures/Hamming%20Weight%20plot%20with%203%20guesses.PNG)
 With the Hamming Weight model, the correlation graph found the correct value, 0xCA, with four peaks.
 The first peak can be attributed to the intermediate value being stored after the sub-bytes operation. 
 The second peak is probably the intermediate value being loaded into the shift-rows operation, followed by the 
@@ -29,13 +29,13 @@ third peak which is writing the value after shifting. Finally the fourth operati
 the value after the mix-columns operation.
 <br />
 
-![HD 3 Guesses](Pictures/Hamming Distance plot with 3 guesses.PNG)
+![HD 3 Guesses](/Lab%202/Pictures/Hamming%20Distance%20plot%20with%203%20guesses.PNG)
 With the Hamming Distance model, the correlation graph could not find any of the encryption bytes. The graph appears to 
 have a lot of noise. It would appear this card is not easily broken with the Hamming Distance model, or my implemenation
 is flawed.
 <br />
 
-![HD 3 Guesses](Pictures/Single Bit plot with 3 guesses.PNG)
+![HD 3 Guesses](/Lab%202/Pictures/Single%20Bit%20plot%20with%203%20guesses.PNG)
 With the Single Bit model, the correlation graph found the correct value, 0xCA, with four peaks. The locations of the 
 peaks mirror the peaks found in the Hamming Weight model.
 <br />
@@ -47,28 +47,24 @@ Partial guessing entropy is how many additional iterations it takes to find the 
 
 - ##### Hamming Weight
 ##### *PGE for 200 traces*
-![PGEHW_200](Pictures/PGEHW 200.PNG)
+![PGEHW_200](/Lab%202/Pictures/PGEHW%20200.PNG)
 ##### *PGE for 100 traces*
-![PGEHW_100](Pictures/PGEHW 100.PNG)
+![PGEHW_100](/Lab%202/Pictures/PGEHW%20100.PNG)
 ##### *PGE for 50 traces*
-![PGEHW_50](Pictures/PGEHW 50.PNG)
+![PGEHW_50](/Lab%202/Pictures/PGEHW%2050.PNG)
 
 - ##### Hamming Distance
 ##### *PGE for 200 traces*
-![PGEHD_200](Pictures/PGEHD 200.PNG)
+![PGEHD_200](/Lab%202/Pictures/PGEHD%20200.PNG)
 ##### *PGE for 100 traces*
-![PGEHD_100](Pictures/PGEHD 100.PNG)
+![PGEHD_100](/Lab%202/Pictures/PGEHD%20100.PNG)
 ##### *PGE for 50 traces*
-![PGEHD_50](Pictures/PGEHD 50.PNG)
+![PGEHD_50](/Lab%202/Pictures/PGEHD%2050.PNG)
 
 - ##### Single Bit
 ##### *PGE for 200 traces*
-![PGESB_200](Pictures/PGESB 200.PNG)
+![PGESB_200](/Lab%202/Pictures/PGESB%20200.PNG)
 ##### *PGE for 100 traces*
-![PGESB_100](Pictures/PGESB 100.PNG)
+![PGESB_100](/Lab%202/Pictures/PGESB%20100.PNG)
 ##### *PGE for 50 traces*
-![PGESB_50](Pictures/PGESB 50.PNG)
-
-![HW 3 Guesses](/Julian-Singkham/Hardware-Security/Lab 2/Pictures/Hamming Weight plot with 3 guesses.PNG)
-![HW 3 Guesses]("/Julian-Singkham/Hardware-Security/Lab 2/Pictures/Hamming Weight plot with 3 guesses.PNG")
-![HW 3 Guesses](/Hardware-Security/Lab 2/Pictures/Hamming Weight plot with 3 guesses.PNG")
+![PGESB_50](/Lab%202/Pictures/PGESB%2050.PNG)
