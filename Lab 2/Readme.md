@@ -21,7 +21,7 @@ Key for unknown card *supo500* was *CA FE BA BE 36 69 AA 00 90 60 90 FF 73 75 70
 For the first task, the following three images will contain  a screenshot of the correlation graph with the 
 correct hyothetical value and two neighboring values.
 
-![HW 3 Guesses](Pictures/Hamming Weight plot with 3 guesses.PNG)
+![HW 3 Guesses](Julian-Singkham/Hardware-Security/Lab 2/Pictures/Hamming Weight plot with 3 guesses.PNG)
 With the Hamming Weight model, the correlation graph found the correct value, 0xCA, with four peaks.
 The first peak can be attributed to the intermediate value being stored after the sub-bytes operation. 
 The second peak is probably the intermediate value being loaded into the shift-rows operation, followed by the 
@@ -68,3 +68,7 @@ Partial guessing entropy is how many additional iterations it takes to find the 
 ![PGESB_100](Pictures/PGESB 100.PNG)
 ##### *PGE for 50 traces*
 ![PGESB_50](Pictures/PGESB 50.PNG)
+
+![HW 3 Guesses](/Julian-Singkham/Hardware-Security/Lab 2/Pictures/Hamming Weight plot with 3 guesses.PNG)
+![HW 3 Guesses]("/Julian-Singkham/Hardware-Security/Lab 2/Pictures/Hamming Weight plot with 3 guesses.PNG")
+![HW 3 Guesses](/Hardware-Security/Lab 2/Pictures/Hamming Weight plot with 3 guesses.PNG")
